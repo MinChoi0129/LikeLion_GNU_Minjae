@@ -7,9 +7,6 @@ input {
   margin: 5px;
 }
 
-header {
-  float: left;
-}
 #clock_base {
   border: 5px solid black;
 }
@@ -42,8 +39,8 @@ ul > img {
 .second {
   animation: clock 60s linear infinite;
   position: relative;
-  right: 221px;
-  bottom: 65px;
+  right: 225px;
+  bottom: 74px;
 }
 
 @keyframes clock {
@@ -95,6 +92,7 @@ ul > img {
 footer {
   background-color: rgb(190, 182, 182);
   height: 200px;
+  margin-top: 25px;
 }
 
 footer a {
@@ -109,4 +107,40 @@ footer div {
   margin: 5px;
   width: fit-content;
   display: inline-block;
+}
+
+/*  */
+.right_section {
+  float: right;
+  position: relative;
+  border: 5px dotted black;
+  width: fit-content;
+}
+
+header {
+  position: fixed;
+}
+
+.right_section div {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right_section b {
+  border: 3px solid gray;
+  border-radius: 30px;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  background-color: aliceblue;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+}
+
+.right_section a {
+  color: black;
+  text-decoration: none;
 }
